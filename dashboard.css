@@ -30,6 +30,9 @@ body {
 
 .topbar {
     display: flex;
+    align-items: center;
+    justify-content: space-between;   /* espacio de esquina a esquina */
+    padding: 0 20px;
 }
 
 .sidebar {

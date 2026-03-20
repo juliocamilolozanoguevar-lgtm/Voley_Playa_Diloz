@@ -37,6 +37,15 @@ body {
     height: 56px;
     background-color: var(--sidebar-bg);
     border-bottom: 1px solid var(--sidebar-line);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 200;
+}
+
+.topbar .title-business {
+    font-size: 1rem; /*16px*/
 }
 
 .sidebar {

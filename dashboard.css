@@ -92,3 +92,11 @@ body {
 .sidebar.open{
     left: 0;
 }
+
+.sidebar-logo{
+    padding: 0 24px 24px;
+    font-size: 1rem; /* 16px*/
+    font-weight: 600;
+    border-bottom: 1px solid var(--sidebar-line);
+    margin-bottom: 16px;
+}

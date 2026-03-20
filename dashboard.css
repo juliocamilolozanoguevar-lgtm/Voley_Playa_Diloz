@@ -6,10 +6,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* VARIABLES GLOBALES EN CSS */
 :root{
-     --bg: #f5f5f5f5; /* backbround o fondo de la pagina*/
-     --text: #00ff44; /* #1a1a1a; color del texto principal*/
+     --bg: #f5f5f5f5;     /* backbround o fondo de la pagina*/
+     --text: #00ff44;     /* #1a1a1a; color del texto principal*/
+     --sidebar-w: 220px;    /*Ancho del menú (sidebar) izquierda*/
+     --sidebar-icons: 64px; /* Solo muestra en la tablet el icono*/
+     --sidebar-bg: #FFFFF;  /* color del fondo el sidebar*/
+     --muted: #999;       /* Texto secundario */
 }
 .main-content{
 color: var(--text)
+
+}
+
+body {
+    font-family: poppins;
+    background-color: var(--bg);
+     color: var(--text)     /* color del texto */
+}
+
+/* EMPEZAMOS A EDITAR EL SIDEBAR */
+
+.topbar {
+    display: flex;
+}
+
+.sidebar {
+
 }

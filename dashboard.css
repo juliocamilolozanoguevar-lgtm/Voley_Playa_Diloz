@@ -87,3 +87,8 @@ body {
     transition: lef 0.25s ease; /* ANIMATION */
     padding: 24px 0;
 }
+
+/* ESTO SE VA A CREAR CON JAVASCRIPT */
+.sidebar.open{
+    left: 0;
+}

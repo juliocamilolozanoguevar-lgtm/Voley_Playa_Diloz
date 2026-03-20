@@ -12,8 +12,9 @@
      --text: #00ff44;     /* #1a1a1a; color del texto principal*/
      --sidebar-w: 220px;    /*Ancho del menú (sidebar) izquierda*/
      --sidebar-icons: 64px; /* Solo muestra en la tablet el icono*/
-     --sidebar-bg: #FFFFF;  /* color del fondo el sidebar*/
+     --sidebar-bg: #ffffff;  /* color del fondo el sidebar*/
      --muted: #999;       /* Texto secundario */
+     --sidebar-line: rgba(0, 0, 0, 0.15);
 }
 .main-content{
 color: var(--text)
@@ -33,6 +34,9 @@ body {
     align-items: center;
     justify-content: space-between;   /* espacio de esquina a esquina */
     padding: 0 20px;
+    height: 56px;
+    background-color: var(--sidebar-bg);
+    border-bottom: 1px solid var(--sidebar-line);
 }
 
 .sidebar {

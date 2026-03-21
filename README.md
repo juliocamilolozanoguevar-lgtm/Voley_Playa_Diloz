@@ -57,6 +57,4 @@ El sistema cuenta con 5 tablas principales diseñadas para la gestión del negoc
 ![Modelo Relacional](recursos/Modelo_Relacional.png)
 *Descripción: Este diagrama representa la estructura lógica de los datos. La tabla **Reserva** actúa como eje central, conectando a los **Clientes** con las **Canchas**. La entidad **Usuario** se mantiene independiente para fines estrictos de autenticación, asegurando que solo el personal autorizado gestione la información .*
 
-### Diseño de Interfaz (Dashboard)
-![Dashboard UI](recursos/Dashboard_Vista.png)
-*Descripción: El diseño de interfaz muestra un panel de control donde se visualizan las reservas del día, el estado de ocupación de las canchas y un resumen financiero de los ingresos del mes, facilitando la toma de decisiones rápida.*
+

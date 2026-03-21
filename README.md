@@ -9,8 +9,8 @@ Sistema web para la gestión de alquiler de canchas deportivas con control de ho
 **Justificación:** Se requiere un sistema digital para centralizar la información, evitar cruces de horarios (duplicidad) y permitir una consulta rápida de la disponibilidad de las canchas .
 
 ## Identificar el problema y solución
-**Problema:** La gestión manual en papel provoca errores en el registro de fechas, pérdida de datos de clientes, dificultad para verificar qué canchas están libres en horas pico y falta de trazabilidad en los adelantos o pagos totales de las reservas [cite: 17-23]. <br>
-**Solución tecnológica:** Desarrollar una plataforma web con Java Spring Boot y MariaDB que permita automatizar el flujo de reservas, validar la disponibilidad de horarios automáticamente y generar reportes de ingresos mensuales [cite: 49-53].
+**Problema:** La gestión manual en papel provoca errores en el registro de fechas, pérdida de datos de clientes, dificultad para verificar qué canchas están libres en horas pico y falta de trazabilidad en los adelantos o pagos totales de las reservas . <br>
+**Solución tecnológica:** Desarrollar una plataforma web con Java Spring Boot y MariaDB que permita automatizar el flujo de reservas, validar la disponibilidad de horarios automáticamente y generar reportes de ingresos mensuales .
 
 ## Requerimientos Funcionales
 | Código | Descripción |

@@ -29,14 +29,13 @@ Sistema web para la gestión de alquiler de canchas deportivas con control de ho
 | RNF03 | Integridad | La base de datos debe garantizar que cada pago esté correctamente vinculado a una reserva válida. |
 
 ## Stack completo
-1. **Trello** = Gestión del proyecto y seguimiento de tareas (Kanban).
-2. **Figma** = Diseño de la interfaz de usuario (UI/UX) y prototipo interactivo.
-3. **MariaDB / MySQL Workbench** = Diseño, administración y persistencia de la base de datos.
-4. **IntelliJ IDEA** = IDE principal para el desarrollo del Backend (Spring Boot) y Frontend.
-5. [cite_start]**Spring Boot** = Framework para la creación de la API REST y lógica de negocio .
+1. **Figma** = Diseño de la interfaz de usuario (UI/UX) y prototipo interactivo.
+2. **MariaDB / MySQL Workbench** = Diseño, administración y persistencia de la base de datos.
+3. **IntelliJ IDEA** = IDE principal para el desarrollo del Backend (Spring Boot) y Frontend.
+4. [cite_start]**Spring Boot** = Framework para la creación de la API REST y lógica de negocio .
 
 ## Tecnologías utilizadas
-- **Java 17** (Lenguaje de programación).
+- **Java 25** (Lenguaje de programación).
 - **Spring Boot 3** (Framework Backend).
 - **MariaDB** (Motor de base de datos relacional).
 - **HTML5, CSS3, JavaScript** (Tecnologías de Frontend) .
@@ -56,5 +55,6 @@ El sistema cuenta con 5 tablas principales diseñadas para la gestión del negoc
 ### Diagrama de Modelo Relacional (MR)
 ![Modelo Relacional](recursos/Modelo_Relacional.png)
 *Descripción: Este diagrama representa la estructura lógica de los datos. La tabla **Reserva** actúa como eje central, conectando a los **Clientes** con las **Canchas**. La entidad **Usuario** se mantiene independiente para fines estrictos de autenticación, asegurando que solo el personal autorizado gestione la información .*
+
 
 
